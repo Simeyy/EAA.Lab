@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Title : 
+# Date : 
+# Author : 
+# Version :
+# Description : 
+# Options :
+
+printf "The number of CPUs in the machine is  "
+
+grep processor /proc/cpuinfo | wc -l
